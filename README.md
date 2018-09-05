@@ -4,9 +4,9 @@ Short INA220 I2C programming guide
 
 ## Registers
 
-#### Device Addresses 80h ... 8Fh
-Depending on the A0 and A1 pins, you can have address between hex 80 and 8F <br>
-Typical GND GND will give the address <b> 80 </b>
+#### Device Addresses 40h ... 4Fh
+Depending on the A0 and A1 pins, you can have address between hex 40 and 4F <br>
+Typical GND GND will give the address <b> 40 </b>
 
 #### Configuration register 00h
 The configuration register <b> 0x00 </b> default value is: <br>
